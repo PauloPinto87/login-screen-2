@@ -1,0 +1,28 @@
+* {
+
+}
+
+
+body {
+    background-image: url('../img/back-ground.jpg');
+    background-size: cover;
+}
+
+section {
+    width: 90%;
+    max-width: 680px;
+    padding: 15px 110px;
+    height: 74vh;
+    transition: all 2s;
+}
+
+.botoes-sign {
+    flex-direction: row;
+    margin-bottom: 50px;
+    gap: 20px;
+    transition: all 2s;
+}
+
+footer {
+    margin-top: 80px;
+}

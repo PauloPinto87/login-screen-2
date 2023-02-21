@@ -28,6 +28,7 @@ section {
     border-radius: 10px;
 
     padding: 15px;
+    transition: all 1s;
 }
 
 h1 {
@@ -52,6 +53,7 @@ a {
     gap: 10px;
 
     margin-bottom: 25px;
+    transition: all 1s;
 }
 
 
@@ -74,7 +76,7 @@ a {
 }
 .botoes-sign > a > img {
     vertical-align: middle;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 
@@ -120,7 +122,7 @@ form {
     margin-bottom: 5px;
 }
 
-.label a, footer a {
+.label a, footer a{
     margin-left: 8px;
     font-size: 14px;
     color: #999999;
@@ -169,4 +171,16 @@ footer a:hover, .label a:hover {
     color: #fc46ff;
     border-bottom: 1px solid #fc46fc;
 }
+
+footer p {
+    color: #999999;
+    font-weight: bold;
+    align-self: start;
+
+}
+
+footer a {
+    margin-bottom: 5px;
+}
+
 
